@@ -1,3 +1,14 @@
+**Works with `arm64`**
+
+**Remember:**
+```
+chmod +x start-datastore
+
+chmod +x start-pubsub
+
+docker build -t=singularities/datastore-emulator .
+```
+
 # Google Cloud Datastore Emulator
 
 A [Google Cloud Datastore Emulator](https://cloud.google.com/datastore/docs/tools/datastore-emulator/) container image. The image is meant to be used for creating an standalone emulator for testing.
